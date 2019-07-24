@@ -1,6 +1,15 @@
 # robobo-ros2-msgs
+This repository contains the robobo messages required for the communication with the robot base and ROS2 nodes.
+
+To compile and generate the messages for ROS2:
+- Unzip the package in the ROS2 workspace and run:
+
+     `source ros2_ws/install/setup.bash` (ROS2 workspace path)
+
+     `colcon build --symlink-install --packages-select robobo_msgs`
 
 ***
+
 <!-- 
     ROSIN acknowledgement from the ROSIN press kit
     @ https://github.com/rosin-project/press_kit
