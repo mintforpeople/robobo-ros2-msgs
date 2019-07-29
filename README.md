@@ -8,7 +8,7 @@ To compile and generate the messages for ROS2:
 
      `colcon build --symlink-install --packages-select robobo_msgs`
 
-***
+## Acknowledgement
 
 <!-- 
     ROSIN acknowledgement from the ROSIN press kit
